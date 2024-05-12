@@ -43,10 +43,11 @@
 		5709B34CF0A7D63546082F79 /* Pods-infoMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infoMovie.release.xcconfig"; path = "Target Support Files/Pods-infoMovie/Pods-infoMovie.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-infoMovie-infoMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infoMovie-infoMovieTests.debug.xcconfig"; path = "Target Support Files/Pods-infoMovie-infoMovieTests/Pods-infoMovie-infoMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-infoMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-infoMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CD97572BED2A1D007B411E /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = infoMovie/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-infoMovie-infoMovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infoMovie-infoMovieTests.release.xcconfig"; path = "Target Support Files/Pods-infoMovie-infoMovieTests/Pods-infoMovie-infoMovieTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F0CFF26E51D322DFF8A5A4D7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = infoMovie/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F0CFF26E51D322DFF8A5A4D7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = infoMovie/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		61CD97562BED2A06007B411E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				61CD97572BED2A1D007B411E /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +130,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				61CD97562BED2A06007B411E /* Fonts */,
 				13B07FAE1A68108700A75B9A /* infoMovie */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* infoMovieTests */,
